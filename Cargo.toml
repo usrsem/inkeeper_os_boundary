@@ -1,0 +1,9 @@
+[package]
+name = "inkeeper_os_boundary"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+inkeeper_domain = { git = "https://github.com/usrsem/inkeeper_domain" }
